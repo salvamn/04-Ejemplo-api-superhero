@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.contenedor-botones{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#boton, #boton2{
+    margin: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton:active, #boton2:active{
+    transform: scale(.9);
+}
+
+.contenedor{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#contenedor-resultado-user1, #contenedor-resultado-user2{
+    /* width: 45%;
+    height: auto; */
+    /* background-color: #333; */
+
+    margin-top: 30px;
+    /* color: white; */
+}
+
+#contenedor-vs{
+    width: 10%;
+    height: 50vh;
+    /* background-color: #333; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* color: white; */
+}
+
+.tarjeta{
+    -webkit-box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.44); 
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid rgba(109, 108, 108, 0.479);
+    box-shadow: 0px 0px 15px 6px rgb(0 0 0 / 29%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: auto;
+}
+

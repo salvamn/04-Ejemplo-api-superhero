@@ -15,11 +15,20 @@ var contadorUsuario1 = 0
 var contadorUsuario2 = 0
 
 
-boton.addEventListener('click', function(){
-    pintarHeroeOVillano(contenedor_resultado)
-    pintarHeroeOVillano2(contenedor_resultado2)
+boton.addEventListener('click', async function(){
+
+    await pintarHeroeOVillano(contenedor_resultado)
+    await pintarHeroeOVillano2(contenedor_resultado2)
+
 
     compararEstadisticas(estadisticasU1, estadisticasU2)
+
+
+    // .then(function(){
+    //     compararEstadisticas(estadisticasU1, estadisticasU2)
+    // })
+
+    
 
     estadisticasU2 = []
     estadisticasU1 = []
@@ -35,8 +44,8 @@ function compararEstadisticas(listaU1, listaU2){
         contadorUsuario1++
         document.getElementById('usuario1').innerHTML = contadorUsuario1
 
-        console.log(estadisticasU1)
-        console.log(estadisticasU2)
+        // console.log(estadisticasU1)
+        // console.log(estadisticasU2)
 
     }else if(listaU1[0] < listaU2[0]){
         console.log("Usuario 2 gana")
@@ -44,15 +53,22 @@ function compararEstadisticas(listaU1, listaU2){
         contadorUsuario2++
         document.getElementById('usuario2').innerHTML = contadorUsuario2
 
-        console.log(estadisticasU1)
-        console.log(estadisticasU2)
+        // console.log(estadisticasU1)
+        // console.log(estadisticasU2)
 
     }else if(listaU1[0] === listaU2[0]){
-        console.log("Empate")
+        // console.log("Empate")
+        alert("Empate")
 
-        console.log(estadisticasU1)
-        console.log(estadisticasU2)
+        // console.log(estadisticasU1)
+        // console.log(estadisticasU2)
     }
+
+    
+    console.log(estadisticasU1)
+    console.log(estadisticasU2)
+
+    console.log("Comparacion de estadisticas listas")
 }
 
 
@@ -61,13 +77,13 @@ function compararEstadisticas(listaU1, listaU2){
 
 
 
-function pintarHeroeOVillano(caja){
+async function pintarHeroeOVillano(caja){
     caja.innerHTML = ''
     // const rndInt = Math.floor(Math.random() * 731)
     const rndInt = parseInt(Math.random() * (563 - 0) + 1) // 731
     // console.log(rndInt)
 
-    fetch(jotason)
+    await fetch(jotason)
     .then(response => response.json())
     .then(data => {
         // console.log(data)
@@ -117,6 +133,8 @@ function pintarHeroeOVillano(caja){
             data[rndInt].powerstats.strength
         ]
 
+        console.log("Heroe o Villano del jugador 1 listo")
+
     })
     .catch(error => {
         console.log(error)
@@ -124,13 +142,13 @@ function pintarHeroeOVillano(caja){
 }
 
 
-function pintarHeroeOVillano2(caja){
+async function pintarHeroeOVillano2(caja){
     caja.innerHTML = ''
     // const rndInt = Math.floor(Math.random() * 731)
     const rndInt = parseInt(Math.random() * (563 - 0) + 1) // 731
     // console.log(rndInt)
 
-    fetch(jotason)
+    await fetch(jotason)
     .then(response => response.json())
     .then(data => {
         caja.innerHTML += `
@@ -178,6 +196,8 @@ function pintarHeroeOVillano2(caja){
             data[rndInt].powerstats.combat,
             data[rndInt].powerstats.strength
         ]
+
+        console.log("Heroe o Villano del jugador 2 listo")
         
     })
     .catch(error => {

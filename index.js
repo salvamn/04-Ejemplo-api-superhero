@@ -70,11 +70,11 @@ async function pintarHeroeOVillano(caja){
 
         estadisticasU1 = [
             data[rndInt].powerstats.intelligence,
+            data[rndInt].powerstats.strength,
             data[rndInt].powerstats.speed,
             data[rndInt].powerstats.durability,
             data[rndInt].powerstats.power,
-            data[rndInt].powerstats.combat,
-            data[rndInt].powerstats.strength
+            data[rndInt].powerstats.combat, 
         ]
         console.log("----------------------------------")
         console.log("Heroe o Villano del jugador 1 listo")

@@ -17,7 +17,7 @@ body{
     width: 100%;
 }
 
-#boton, #boton2{
+#boton{
     margin: 20px;
     padding: 10px;
     background-color: rgb(53, 124, 206);
@@ -25,6 +25,7 @@ body{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 30px;
 }
 
 #boton:active, #boton2:active{
@@ -114,6 +115,10 @@ body{
 
         #contenedor-resultado-user1, #contenedor-resultado-user2{
             height: auto;
+        }
+
+        #boton{
+            
         }
 
         .contenedor{

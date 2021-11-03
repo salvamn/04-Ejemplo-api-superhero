@@ -96,6 +96,17 @@ body{
     /* border-radius: 7px; */
 }
 
+.tarjeta span{
+    display: inline-flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.imagen-estadistica{
+    width: 25px !important;
+    margin-right: 5px;
+}
+
 .tarjeta img{
     width: 220px;
     border-top-left-radius: 5px;
@@ -122,10 +133,6 @@ body{
         #boton{
             font-size: 20px;
             margin: 5px;
-        }
-
-        .contenedor{
-            /* padding: 10px; */
         }
 
         .tarjeta{

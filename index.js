@@ -42,26 +42,32 @@ async function pintarHeroeOVillano(caja){
             <h3>Estadisticas de poder</h3>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.intelligence) >= 70 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/inteligencia.png'></img>
                 Inteligencia: ${data[rndInt].powerstats.intelligence}
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.strength) >= 70 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/fuerza.png'></img>
                 Fuerza: ${data[rndInt].powerstats.strength}
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.speed) >= 60 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/velocidad.png'></img>
                 Velocidad: ${data[rndInt].powerstats.speed}   
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.durability) >= 50 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/durabilidad.png'></img>
                 Durabilidad: ${data[rndInt].powerstats.durability}
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.power) >= 70 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/poder.png'></img>    
                 Poder: ${data[rndInt].powerstats.power}
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.combat) >= 65 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/combate.png'></img>    
                 Combate: ${data[rndInt].powerstats.combat}
             </span>
 
@@ -106,26 +112,32 @@ async function pintarHeroeOVillano2(caja){
             <h3>Estadisticas de poder</h3>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.intelligence) >= 70 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/inteligencia.png'></img>
                 Inteligencia: ${data[rndInt].powerstats.intelligence}
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.strength) >= 70 ? 'green' : 'red'};">
+            <img class="imagen-estadistica" src='img/fuerza.png'></img>
                 Fuerza: ${data[rndInt].powerstats.strength}
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.speed) >= 60 ? 'green' : 'red'};">
+            <img class="imagen-estadistica" src='img/velocidad.png'></img>
                 Velocidad: ${data[rndInt].powerstats.speed}   
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.durability) >= 50 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/durabilidad.png'></img>
                 Durabilidad: ${data[rndInt].powerstats.durability}
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.power) >= 70 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/poder.png'></img>    
                 Poder: ${data[rndInt].powerstats.power}
             </span>
 
             <span style="color: ${parseInt(data[rndInt].powerstats.combat) >= 65 ? 'green' : 'red'};">
+                <img class="imagen-estadistica" src='img/combate.png'></img>   
                 Combate: ${data[rndInt].powerstats.combat}
             </span>
 
@@ -226,6 +238,7 @@ function compararEstadisticas(listaU1, listaU2){
         console.log("Empate de combate")
     }
 
+    // RESULTADO FINAL
     if(ganadorU1 > ganadorU2){
         console.log("Usuario 1 gana")
         contadorUsuario1++

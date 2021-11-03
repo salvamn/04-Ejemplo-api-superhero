@@ -43,13 +43,14 @@ body{
     /* width: 45%;
     height: auto; */
     /* background-color: #333; */
+    display: none;
     background-color: white;
-    margin-top: 30px;
+    /* margin-top: 5px; */
     /* color: white; */
     border-radius: 5px;
     padding-bottom: 10px;
     width: 220px;
-    height: 636px;
+    height: auto;
 }
 
 #contenedor-vs{

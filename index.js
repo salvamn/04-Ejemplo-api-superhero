@@ -1,5 +1,3 @@
-// import Swal from 'sweetalert2'
-
 var boton = document.getElementById('boton')
 var contenedor_resultado = document.getElementById('contenedor-resultado-user1')
 var contenedor_resultado2 = document.getElementById('contenedor-resultado-user2')
@@ -35,6 +33,7 @@ async function pintarHeroeOVillano(caja){
     .then(response => response.json())
     .then(data => {
         // console.log(data)
+        contenedor_resultado.style.display = 'block'
         caja.innerHTML += `
         <div class='tarjeta'>
 
@@ -105,6 +104,7 @@ async function pintarHeroeOVillano2(caja){
     await fetch(jotason)
     .then(response => response.json())
     .then(data => {
+        contenedor_resultado2.style.display = 'block'
         caja.innerHTML += `
         <div class='tarjeta'>
 

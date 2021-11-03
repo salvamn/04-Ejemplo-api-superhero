@@ -2,6 +2,8 @@
 Esta web consume una Api de<a href="https://superheroapi.com/index.html"> Super Heroes y Villanos</a> que en resumen lo que hace es recopilar una serie de personajes de distintas franquicias como marvel, dc, star wars, el señor de los anillos, etc.<br>
 Cada personaje tiene sus respectivas estadisticas por ejemplo: inteligencia, Fuerza, Velocidad, Durabilidad, Poder, Combate, etc.
 
+<a href="https://salvamn.github.io/04-Ejemplo-api-superhero/">Web SuperHeroes y Villanos</a>
+
 ## primera Versión
 <div style="display: inline-flex; flex-direction: row; width: 100%; justify-content: space-evenly;">
   <img src="https://user-images.githubusercontent.com/61121429/139561895-e7f2b580-608e-4c39-8f01-d13f712fb1f9.jpeg" width="70%">

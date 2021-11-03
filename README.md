@@ -12,37 +12,50 @@ gana el heroe o villano que tenga mas puntos, es decir si el personaje tiene mas
     <th>Estadisticas</th>
     <th>Heroe</th>
     <th>Villano</th>
+    <th>Punto</th>
   </thead>
   <tbody>
     <tr>
       <td>Inteligencia</td>
-      <td style="color: green;" >100</td>
+      <td>100</td>
       <td>45</td>
+      <td>Gana heroe +1</td>
     </tr>
     <tr>
       <td>Fuerza</td>
       <td>10</td>
       <td>82</td>
+      <td>Gana villano +1</td>
     </tr>
     <tr>
       <td>Velocidad</td>
       <td>70</td>
       <td>22</td>
+      <td>Gana heroe +1</td>
     </tr>
     <tr>
       <td>Durabilidad</td>
       <td>92</td>
       <td>15</td>
+      <td>Gana heroe +1</td>
     </tr>
     <tr>
       <td>Poder</td>
-      <td>58</td>
-      <td>100</td>
+      <td>78</td>
+      <td>12</td>
+      <td>Gana heroe +1</td>
     </tr>
     <tr>
       <td>Combate</td>
       <td>8</td>
       <td>78</td>
+      <td>Gana villano +1</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Ganador Heroe con 4 puntos</td>
     </tr>
   </tbody>
 </table>

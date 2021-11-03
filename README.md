@@ -1,4 +1,4 @@
-# Api de superheroes
+# SuperHeroes y Villanos
 Esta web consume una Api de<a href="https://superheroapi.com/index.html"> Super Heroes y Villanos</a> que en resumen lo que hace es recopilar una serie de personajes de distintas franquicias como marvel, dc, star wars, el señor de los anillos, etc.<br>
 Cada personaje tiene sus respectivas estadisticas por ejemplo: inteligencia, Fuerza, Velocidad, Durabilidad, Poder, Combate, etc.
 

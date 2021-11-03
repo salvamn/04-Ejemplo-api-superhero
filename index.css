@@ -119,6 +119,22 @@ body{
     border-top-right-radius: 5px;
 }
 
+.github{
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.github a{
+    text-decoration: none;
+}
+
+.github a:visited{
+    color: white;
+}
+
 
 @media only screen 
     and (min-device-width: 320px)

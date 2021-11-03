@@ -4,6 +4,49 @@ Cada personaje tiene sus respectivas estadisticas por ejemplo: inteligencia, Fue
 
 <a href="https://salvamn.github.io/04-Ejemplo-api-superhero/">Web SuperHeroes y Villanos</a>
 
+Sistema de puntos del juego:
+gana el heroe o villano que tenga mas puntos, es decir si el personaje tiene mas inteligencia que su oponente se le suma un punto, lo mismo con las demas estadisticas del personaje.
+
+<table border="1">
+  <thead>
+    <th>Estadisticas</th>
+    <th>Heroe</th>
+    <th>Villano</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Inteligencia</td>
+      <td style="color: green;" >100</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>Fuerza</td>
+      <td>10</td>
+      <td>82</td>
+    </tr>
+    <tr>
+      <td>Velocidad</td>
+      <td>70</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>Durabilidad</td>
+      <td>92</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Poder</td>
+      <td>58</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Combate</td>
+      <td>8</td>
+      <td>78</td>
+    </tr>
+  </tbody>
+</table>
+
 ## primera Versión
 <div style="display: inline-flex; flex-direction: row; width: 100%; justify-content: space-evenly;">
   <img src="https://user-images.githubusercontent.com/61121429/139561895-e7f2b580-608e-4c39-8f01-d13f712fb1f9.jpeg" width="70%">

@@ -1,6 +1,8 @@
 var boton = document.getElementById('boton')
 var contenedor_resultado = document.getElementById('contenedor-resultado-user1')
 var contenedor_resultado2 = document.getElementById('contenedor-resultado-user2')
+var medallaU1 = document.getElementById('medallaU1')
+var medallaU2 = document.getElementById('medallaU2')
 
 const jotason = 'response.json'
 
@@ -243,10 +245,14 @@ function compararEstadisticas(listaU1, listaU2){
         console.log("Usuario 1 gana")
         contadorUsuario1++
         document.getElementById('usuario1').innerHTML = contadorUsuario1
+        medallaU1.innerHTML = `<img src="img/oro-win.png" alt="">`
+        medallaU2.innerHTML = `<img src="img/plata-loser.png" alt="">` 
     }else if(ganadorU1 < ganadorU2){
         console.log("Usuario 2 gana")
         contadorUsuario2++
         document.getElementById('usuario2').innerHTML = contadorUsuario2
+        medallaU1.innerHTML = `<img src="img/plata-loser.png" alt="">`
+        medallaU2.innerHTML = `<img src="img/oro-win.png" alt="">`
     }else if(ganadorU1 === ganadorU2){
         console.log("Empate")
         alert("Empate")

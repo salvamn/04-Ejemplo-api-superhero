@@ -1,3 +1,5 @@
+// import Swal from 'sweetalert2'
+
 var boton = document.getElementById('boton')
 var contenedor_resultado = document.getElementById('contenedor-resultado-user1')
 var contenedor_resultado2 = document.getElementById('contenedor-resultado-user2')
@@ -255,6 +257,14 @@ function compararEstadisticas(listaU1, listaU2){
         medallaU2.innerHTML = `<img src="img/oro-win.png" alt="">`
     }else if(ganadorU1 === ganadorU2){
         console.log("Empate")
-        alert("Empate")
+        // alert("Empate")
+        medallaU2.innerHTML = ""
+        medallaU1.innerHTML = ""
+        Swal.fire({
+            title: 'Empate',
+            text: 'Woow los dos son muy fuertes',
+            icon: 'success',
+            confirmButtonText: '¡¡¡ Genial !!!'
+          })
     }
 }

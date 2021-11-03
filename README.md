@@ -60,6 +60,7 @@ gana el heroe o villano que tenga mas puntos, es decir si el personaje tiene mas
   </tbody>
 </table>
 
+
 ## primera Versión
 <div style="display: inline-flex; flex-direction: row; width: 100%; justify-content: space-evenly;">
   <img src="https://user-images.githubusercontent.com/61121429/139561895-e7f2b580-608e-4c39-8f01-d13f712fb1f9.jpeg" width="70%">

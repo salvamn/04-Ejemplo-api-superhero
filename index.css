@@ -147,6 +147,11 @@ body{
             width: 100%;
             /* padding: 0px; */
         }
+        
+        .imagen-estadistica{
+            width: 20px !important;
+            margin-right: 5px;
+        }
 
         #contenedor-vs{
             margin: 15px;
